@@ -1,0 +1,75 @@
+body{
+  background-color: black;
+}
+
+div{
+  width: 300px;
+  height: 70px;
+  background-color: #FF8E9E;
+  margin: auto auto;
+  font-family: 'Poppins', serif;
+  font-size: 18px;
+  
+}
+
+.judul {
+    width: 500px;
+    height: 250px;
+    color: #121213;
+    margin: auto;
+    padding: auto;
+    text-align: center     
+  }
+img{
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+ul{
+  color: #494a4b;
+  color: #e8edf0;
+  padding: 8px 5px;
+  border: 8px 20px;
+  margin-top: 30px ;
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-style: oblique;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(121, 197, 241, 0.533));
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 20s linear infinite;
+
+  }
+  @keyframes animate
+  {
+      0%,15%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+      {
+          color: #ffffff;
+          text-shadow: #FF8E9E;
+      }
+      18%,10.30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+      {
+          color:#e6a9d1;
+          text-shadow: 0 0 10px #f6f6f7;
+          
+      }
+  }
+  
+
+button{
+  width: 75px;
+  background-color:#f0ecec;
+  padding: 3px;
+  border: 0px 10px;
+  border-color: #f36cca;
+  margin-top: 30px ;
+  font-style: oblique;
+}

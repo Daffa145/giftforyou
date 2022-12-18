@@ -1,0 +1,12 @@
+import turtle
+t = turtle.Turtle()
+for i in range(180):
+    t.speed(100)
+    t.color('#FF8E9E')
+    t.circle(190-i,90)
+    t.left(90)
+    t.color('#f570AD')
+    t.circle(190-i,90)
+    t.left(18)
+    
+
